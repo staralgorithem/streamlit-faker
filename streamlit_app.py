@@ -5,7 +5,7 @@ from streamlit_faker import all_commands, get_streamlit_faker
 if "seed" not in st.session_state:
     st.session_state["seed"] = 12
 
-st.title("🥷 Streamlit Faker")
+st.title("💻 Streamlit Faker")
 
 st.header("What's that?")
 st.write(
