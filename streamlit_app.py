@@ -26,7 +26,7 @@ st_faker.map()
     language="python",
 )
 
-generate = st.button("🥷 Fake it!")
+generate = st.button("Fake it!")
 
 if generate:
     st.session_state.seed += 1
